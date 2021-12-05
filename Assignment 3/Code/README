@@ -1,0 +1,37 @@
+I have made 2 files
+  1. A python script (Assignment3.py)
+  2. A I-python Notebook (AI_Assignment_3_TSP_with_genetic_Algorithm.ipynb)
+
+The .ipynb has test case generators (buildGraph()) and .py file has command line input ( makeGraph())
+
+
+Use python3
+
+python3 Assignment3.py <Enter>
+
+	or
+
+python3 Assignment2.py < <Input File>
+
+Input Format
+
+
+* Number Of Cities
+* Name Of Each city ( Separated by New Line) eg. 
+	. A
+	. B
+	. ...
+* Distance of cities (New Line Separated)  from all other cities ( Space Separated ) eg.
+	. 0 12 10 ...
+	. 12 0 20 ...
+	. ....
+
+
+I have also made 4 plots
+	1. Graph with weights ( undirected )
+	2. Generation (X) V.S Average Fitness i.e 1/pathCost (Y)
+	3. Generation (X) V.S Minimum Path Cost
+	4. Minimum cost path ( Directed Path )
+
+Naming convention is itself explanatory but I have also incorporated comments wherever it is needed
+Also attached a recording of code explanation and execution

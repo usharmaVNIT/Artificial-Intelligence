@@ -1,0 +1,17 @@
+Use python3
+
+python3 assignment1.py <enter>
+
+Or 
+
+python3 assignment1.py < <input file with configurations> <enter>
+
+
+I have also incorporated comments inside the code to make it easier for the reader
+To understand the code and also have the reasoning as to why I have done what I have done
+Inside the code .
+Other approaches are also mentioned at the end of the code .
+
+BT18CSE021
+UJJWAL SHARMA
+usharma@students.vnit.ac.in

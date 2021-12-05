@@ -1,0 +1,55 @@
+Enter 0 row for initial configuration : 
+Enter 1 row for initial configuration : 
+Enter 2 row for initial configuration : 
+
+Enter 0 row for final configuration : 
+Enter 1 row for final configuration : 
+Enter 2 row for final configuration : 
+Initial Configuration : 
+
+	 0 2 3
+	 1 4 6
+	 7 5 8
+
+Final Configuration : 
+	 1 2 3
+	 4 5 6
+	 7 8 0
+
+Actions : 
+	 left
+	 right
+	 up
+	 down
+
+
+State : 
+	 0 2 3
+	 1 4 6
+	 7 5 8
+ACTION to be taken :  down
+
+State : 
+	 1 2 3
+	 0 4 6
+	 7 5 8
+ACTION to be taken :  right
+
+State : 
+	 1 2 3
+	 4 0 6
+	 7 5 8
+ACTION to be taken :  down
+
+State : 
+	 1 2 3
+	 4 5 6
+	 7 0 8
+ACTION to be taken :  right
+
+State : 
+	 1 2 3
+	 4 5 6
+	 7 8 0
+ACTION to be taken :  None
+

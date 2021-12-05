@@ -1,0 +1,26 @@
+Enter 0 row for initial configuration : 
+Enter 1 row for initial configuration : 
+Enter 2 row for initial configuration : 
+
+Enter 0 row for final configuration : 
+Enter 1 row for final configuration : 
+Enter 2 row for final configuration : 
+Initial Configuration : 
+
+	 8 1 2
+	 0 4 3
+	 7 6 5
+
+Final Configuration : 
+	 1 2 3
+	 4 5 6
+	 7 8 0
+
+Actions : 
+	 left
+	 right
+	 up
+	 down
+
+
+Cannot Be Solved

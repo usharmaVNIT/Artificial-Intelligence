@@ -1,0 +1,93 @@
+Use python3
+
+python3 Assignment2.py <Enter>
+
+	or
+
+python3 Assignment2.py < <Input File>
+
+Input Format
+
+
+* Number Of Cities
+* Name Of Each city ( Separated by New Line) eg. 
+	. A
+	. B
+	. ...
+* Distance of cities (New Line Separated)  from all other cities ( Space Separated ) eg.
+	. 0 12 10 ...
+	. 12 0 20 ...
+	. ....
+* 'y' or 'n' to print the graph
+
+
+Output Format
+
+* Cost ( including reaching the start city again i.e loop )
+* Path ( including reaching the start city again i.e loop )
+* Cost ( without including reaching the start city again i.e each city visited only once )
+* Path ( ( without including reaching the start city again i.e each city visited only once )
+* Total Nodes Expanded
+* Total Nodes Generated
+* Total Node in frontier
+
+
+Example 
+
+INPUT
+
+
+4
+a
+b
+c
+d
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+y
+
+
+Corresponding Output 
+
+
+
+
+
+
+
+		The Graph : 
+
+a : 	a ( 0 )  --> b ( 10 )  --> c ( 15 )  --> d ( 20 ) 
+b : 	a ( 10 )  --> b ( 0 )  --> c ( 35 )  --> d ( 25 ) 
+c : 	a ( 15 )  --> b ( 35 )  --> c ( 0 )  --> d ( 30 ) 
+d : 	a ( 20 )  --> b ( 25 )  --> c ( 30 )  --> d ( 0 ) 
+
+
+
+
+**
+	 Cost :  80  ( Note this is the cost of the loop ) 
+
+	 -----  Path  -----  
+
+a ( 10 )  ---> b ( 25 )  ---> d ( 30 )  ---> c ( 15 )  ---> a ( 0 ) 
+
+
+**
+	Cost for visiting without loop :  65
+
+	 -----  Path  -----  
+
+a ( 10 )  ---> b ( 25 )  ---> d ( 30 )  ---> c ( 0 ) 
+
+
+
+Total Nodes Expanded :  14
+
+Total Nodes Generated :  20
+
+Total Node in frontier :  5
+
+
